@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Registration form</title>
+    <style>
+      p{
+         color:rgb(255, 30, 0);
+         font-size: 18px;
+      }
+      fieldset{
+         background-color:rgb(255, 174, 174);
+      }
+      @media only screen and (max-width: 768px){
+        form{
+         width: 100%;
+         margin: 0;
+        }
+      }
+
+    </style>
+</head>
+<body align="center">
+    
+<form action="https://www.google.com" method="post" >
+   <fieldset class="myclass" style="margin: 5% 15%; border-radius: 50px;">
+      <legend style="font-size: 20px; background-color: white; border-radius: 10px;">Personal Details</legend>
+ <p> Full Name
+    <br />
+    <br />
+    <input type="text" size="20" maxlength="20" name="username" placeholder="enter name" requirerd>
+ </p>
+ <p>Father name
+    <br />
+    <br />
+    <input type="text" size="20" maxlength="20" name="fatrher name" placeholder="enter name" required>
+ </p>
+ <p>CNIC/B-form No
+   <br />
+   <br />
+   <input type="text" size="20" maxlength="20" name="cnic" placeholder="CNIC" required>
+</p>
+<p>Mobile No
+   <br />
+   <br />
+   <input type="text" size="20" maxlength="20" name="mobile no" placeholder="03_______" required>
+</p>
+<p>Password
+<br />
+<br />
+<input type="password" size="20" maxlength="20" name="password" placeholder="enter password">
+ </p>
+<p>Home Address
+    <br />
+    <br />
+    <input type="text" size="20" maxlength="30" name="adress" placeholder="address" required>
+ </p>
+ <p>Date of Birth
+    <br />
+    <br />
+    <input type="date" size="40" maxlength="10" name="dob" placeholder="date of birth">
+ </p>
+<p>Gender
+<br /> 
+<br />
+<lebel>
+<input type="radio" size="15" maxlength="30" name="GENDER" value="male"> MALE
+<input type="radio" size="15" maxlength="30" name="GENDER" value="female">FEMALE 
+</lebel>
+</p>
+<p>Please Enter Your Email Address
+   <br />
+   <br />
+   <input type="email" size="20" maxlength="20" name="email" placeholder="enter email" required>
+</p>
+<p>Which languages can you speak 
+   <br />
+   <br/>
+   <input type="checkbox" size="15" maxlength="30" name="interest" value="english">English
+   <input type="checkbox" size="15" maxlength="30" name="interest" value="urdu">Urdu
+   <input type="checkbox" size="15" maxlength="30" name="interest" value="math">Sindhi
+   <input type="checkbox" size="15" maxlength="30" name="interest" value="physics">Others
+</p>
+<p>Province
+   <br />
+   <br />
+   <select name="province">Please Select An Option
+      <option value="sindh">Sindh</option>
+      <option value="punjab">Punjab</option>
+      <option value="balochistan">Balochistan</option>
+      <option value="kpk">KPK</option>
+      <option value="kashmir">Kashmir</option>
+   </select></p>
+   <p>Upload Profile Picture
+      <br />
+      <br />
+      <input type="file" size="20" maxlength="20" name="img">
+   </p>
+   
+   <a href="account.html" target="_blank">
+      <i class="fa-solid fa-circle-left" style="font-size: 60px;"></i>
+   </a>
+   <a href="review.html" target="_blank">
+      <i class="fa-solid fa-circle-right" style="font-size: 60px;"></i>
+   </a>
+
+
+   </fieldset>
+</form> 
+<script src="https://kit.fontawesome.com/0a50021b6f.js" crossorigin="anonymous"></script>    
+</body>
+</html>
